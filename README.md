@@ -5,7 +5,7 @@
 Embedded Linux | Embedded C/C++ | Yocto | Bootloader | OTA | ARM | Networking
 
 <p align="center">
-  <img src="images/embedded-linux-stack.png" width="900">
+  <img src="images/embedded_linux_stack.png" width="900">
 </p>
 
 ---
