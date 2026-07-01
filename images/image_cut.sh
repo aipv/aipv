@@ -1,0 +1,1 @@
+ffmpeg -i embedded_linux_stack.png -vf "crop=1983:340:0:330" banner.png
