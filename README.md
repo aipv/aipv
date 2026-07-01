@@ -8,6 +8,8 @@ Embedded Linux | Embedded C/C++ | Yocto | Bootloader | OTA | ARM | Networking
   <img src="images/embedded_linux_stack.png" width="900">
 </p>
 
+Embedded Linux software stack covering bootloader, Linux kernel, system integration, networking, user-space applications, troubleshooting, and OTA firmware updates.
+
 ---
 
 ## About Me
