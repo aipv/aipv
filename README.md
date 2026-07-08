@@ -93,18 +93,15 @@ A complete Embedded Linux demonstration showing how to build, customize, and dep
 
 - Custom Yocto layer development
 - Custom BitBake recipes
-- Raspberry Pi Linux image customization
+- Raspberry Pi image customization
 - Mender OTA integration
-- HTTPS server certificate configuration
 - Image version management
-- OTA deployment automation
-- Deployment verification scripts
+- OTA deployment scripts
+- Automated OTA testing
 
 ### Technologies
 
-`Yocto` `BitBake` `Embedded Linux` `Mender` `Raspberry Pi` `systemd` `Shell`
-
----
+`Yocto` `BitBake` `Embedded Linux` `Raspberry Pi` `Mender` `systemd` `Shell`
 
 ## Embedded Firmware Verification
 
@@ -112,17 +109,14 @@ Firmware signing and verification framework for Embedded Linux devices.
 
 ### Highlights
 
-- RSA signature verification
-- SHA256 integrity validation
-- Secure firmware update workflow
+- ED25519 signature verification
+- SHA-256 firmware integrity validation
+- Secure OTA update workflow
 - Rollback protection
-- OpenSSL implementation
 
 ### Technologies
 
-`C` `OpenSSL` `Embedded Linux`
-
----
+`C` `Bootloader` `FreeRTOS` `ESP-IDF` `ED25519` `SHA-256` `OTA`
 
 ## Edge AI Contact Detection
 
