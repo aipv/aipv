@@ -30,7 +30,7 @@ My background includes:
 
 Previously, I worked at Huawei Technologies, developing networking software and communication protocols for carrier-grade systems. Most recently, at Teraki, I focused on Embedded Linux software, firmware integration, OTA update workflows, and ARM-based embedded platforms.
 
-I enjoy building hands-on projects in Embedded Linux, firmware, networking, and Edge AI for embedded systems.
+I enjoy building hands-on projects in Embedded Linux, Yocto, OTA software updates, firmware security, networking, and Edge AI for embedded systems.
 
 ---
 
@@ -61,7 +61,7 @@ I enjoy building hands-on projects in Embedded Linux, firmware, networking, and 
 - Signature Verification
 - Integrity Validation
 - SHA256
-- OTA Update
+- Mender OTA
 - Rollback Protection
 
 ### Networking
@@ -85,11 +85,32 @@ I enjoy building hands-on projects in Embedded Linux, firmware, networking, and 
 
 # Featured Projects
 
+## Raspberry Pi Mender OTA Demo
+
+A complete Embedded Linux demonstration showing how to build, customize, and deploy a Yocto-based Linux image with secure over-the-air (OTA) updates using Mender.
+
+### Highlights
+
+- Custom Yocto layer development
+- Custom BitBake recipes
+- Raspberry Pi Linux image customization
+- Mender OTA integration
+- HTTPS server certificate configuration
+- Image version management
+- OTA deployment automation
+- Deployment verification scripts
+
+### Technologies
+
+`Yocto` `BitBake` `Embedded Linux` `Mender` `Raspberry Pi` `systemd` `Shell`
+
+---
+
 ## Embedded Firmware Verification
 
 Firmware signing and verification framework for Embedded Linux devices.
 
-Highlights
+### Highlights
 
 - RSA signature verification
 - SHA256 integrity validation
@@ -97,26 +118,9 @@ Highlights
 - Rollback protection
 - OpenSSL implementation
 
-Technologies
+### Technologies
 
 `C` `OpenSSL` `Embedded Linux`
-
----
-
-## Yocto TCP Server
-
-Simple TCP server integrated into a Yocto-based Linux image.
-
-Highlights
-
-- Custom BitBake recipe
-- Cross compilation
-- Deployment on Raspberry Pi
-- systemd service integration
-
-Technologies
-
-`Yocto` `BitBake` `Linux`
 
 ---
 
@@ -124,29 +128,28 @@ Technologies
 
 Audio-based anomaly detection running on embedded ARM platforms.
 
-Highlights
+### Highlights
 
 - Log-Mel feature extraction
 - TinyML inference
-- Embedded deployment 
+- Embedded deployment
 - Performance optimization
 
-Technologies
+### Technologies
 
 `C++` `Python` `TensorFlow Lite`
 
 ---
 
-
 ## Areas of Interest
 
 - Embedded Linux
+- Yocto Project
+- OTA Software Updates
 - Embedded C/C++
 - Firmware Development
 - Linux Platform Integration
-- Yocto
 - Secure Boot
-- OTA
 - Automotive Embedded Systems
 
 ---
